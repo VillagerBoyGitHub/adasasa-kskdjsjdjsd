@@ -1,0 +1,109 @@
+
+
+.df-title {
+    font-family: Oswald;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    cursor: default;
+    color: #b455a4;
+    
+}
+
+*{
+    font-size: 40px;
+    font-family: Lato;
+}
+
+a {
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    
+}
+a:hover {
+    color: #a0288c;
+}
+a:active {
+    color: #db3bc3;
+}
+.menu {
+    margin: 0;
+}
+
+.item {
+    margin: 10px;
+}
+
+black {
+    color: #272727;
+    font-weight: 1000;
+    cursor: default;
+}
+.highlight-yellow {
+    background-color: #f7f31da6;
+}
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald.ttf);
+
+}
+
+body {
+    margin: 0 75px;
+    color: #fff;
+    background: url(../images/background.png) #0f0f0f top no-repeat;
+    top: 100%;
+    bottom: 100%;
+    
+}
+
+.info {
+    font-family: Lato;
+    cursor: pointer;
+    transition: linear 0.2s;
+    width: 379px;
+}
+
+.info:hover {
+    color:#721a63;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato.ttf);
+}
+
+.button {
+    color: #fff; 
+    font-family: Roboto;
+    font-size: 40px;
+    transition: linear 0.3s;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #5031be;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #0f0f0f;
+    background-color: #721a63;
+}
+.button:active {
+    color: #0f0f0f;
+    background-color: #972482;
+    cursor: pointer;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto.ttf);
+}
+
+::selection {
+    background-color: #db38c071;
+    color: #fff;
+}
+#port {
+    width: 188px;
+}
