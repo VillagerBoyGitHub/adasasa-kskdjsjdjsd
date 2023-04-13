@@ -1,5 +1,5 @@
 function copyIP() {
-    navigator.clipboard.writeText("dragon-pe.ddns.ne");
+    navigator.clipboard.writeText("dragon-pe.ddns.net");
 }
 
 function copyPort() {
