@@ -3,5 +3,5 @@ function copyIP() {
 }
 
 function copyPort() {
-    navigator.clipboard.writeText("7224");
+    navigator.clipboard.writeText("25599");
 }
